@@ -3,7 +3,7 @@ from .instance import Instance
 from .site import Site
 
 class Data:
-    def __init__():
+    def __init__(self) -> None:
         pass
 
     def read_instance_X(file: str,
